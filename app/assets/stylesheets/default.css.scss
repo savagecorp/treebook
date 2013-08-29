@@ -1,0 +1,10 @@
+#container {width: 940px; margin: 0 auto;}
+
+.status_container {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #c3c3c3;
+  margin-bottom: 12px;
+}
+
+.status_container .admin {display: none;}
+.status_container:hover .admin {display: inline-block;}

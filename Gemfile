@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 1.2'
 # Pretty date and time https://github.com/brettshollenberger/hublot
 gem "hublot", "~> 0.0.6"
 
+#Authentication using devise
+gem 'devise'
+
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

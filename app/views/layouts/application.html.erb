@@ -7,8 +7,25 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  
 
+<header class="navbar navbar-inverse">
+  <div class="navbar-inner">
+    <div id="container">
+      <div class="inner">  
+      <div class="brand">bookBook </div>
+        <ul class="nav">
+          <li><%= link_to "All Statuses", statuses_path %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>  
+
+<div id="container">
 <%= yield %>
+</div>
+
 
 </body>
 </html>
